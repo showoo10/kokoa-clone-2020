@@ -1,7 +1,7 @@
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 100vh;
+  height: 130vh;
   width: 100vw;
   background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   display: flex;
