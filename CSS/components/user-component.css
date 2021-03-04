@@ -2,10 +2,6 @@
   justify-content: space-between;
 }
 
-.user-component:hover {
-  background-color: rgba(172, 168, 168, 0.4);
-}
-
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -94,4 +90,8 @@
 
 .user-component__bottom > .user-component {
   margin-top: 10px;
+}
+
+.chats-list .user-component:hover {
+  background-color: rgba(172, 168, 168, 0.4);
 }
