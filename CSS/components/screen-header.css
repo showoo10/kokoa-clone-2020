@@ -36,3 +36,19 @@
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
 }
+
+@keyframes beatMusic {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header__icons .fa-music:hover {
+  animation: beatMusic 1s linear infinite;
+}

@@ -38,7 +38,7 @@
 #splash-screen {
   background-color: var(--yellow);
   position: absolute;
-  height: 100vh;
+  height: 130vh;
   width: 100vw;
   top: 0;
   display: flex;
@@ -47,4 +47,15 @@
   font-size: 132px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 2s;
+}
+
+.friends-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.friends-list i {
+  color: var(--text-color);
 }

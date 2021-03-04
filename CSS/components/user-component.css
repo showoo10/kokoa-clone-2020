@@ -1,11 +1,17 @@
 .user-component {
   justify-content: space-between;
 }
+
+.user-component:hover {
+  background-color: rgba(172, 168, 168, 0.4);
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
 }
+
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -61,4 +67,31 @@
   font-weight: 600;
   margin-top: 10px;
   margin-left: 4px;
+}
+
+.friends-screen .user-component:nth-child(2) {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: var(--main-border);
+}
+
+.user-component__me {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__me span {
+  color: white;
+  width: 25px;
+  height: 25px;
+  font-size: 13px;
+  text-align: center;
+  background-color: rgba(119, 118, 118);
+  border-radius: 50%;
+  padding-top: 6px;
+  box-sizing: border-box;
+}
+
+.user-component__bottom > .user-component {
+  margin-top: 10px;
 }
